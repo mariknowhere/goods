@@ -1,0 +1,30 @@
+@import "../utils/colors";
+@import "../utils/variables";
+
+.common {
+  padding: 60px 0;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    max-width: $max-width-header;
+    margin-bottom: 40px;
+  }
+
+  &__warning {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+
+    padding: 12px;
+    background: $color-white-20;
+    border: 1px solid $color-red-10;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+
+  &__textarea {
+    margin: 20px 0 12px;
+  }
+}

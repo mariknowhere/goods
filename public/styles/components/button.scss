@@ -1,0 +1,20 @@
+@import "../utils/colors";
+
+.button {
+  width: fit-content;
+  background: $color-purple-10;
+  box-shadow: 0 10px 20px rgba(40, 93, 123, 0.1);
+  border-radius: 6px;
+  padding: 8px 23px;
+
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $color-white-10;
+  }
+
+  &:hover {
+    outline: 1px solid $color-white-10;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../utils/colors";
+
+.table {
+  width: 100%;
+  background-color: $background-color;
+  border-spacing: 0 2px;
+  border-collapse: inherit;
+
+  &__wrapper {
+    max-height: 60vh;
+    overflow-y: auto;
+    background: $color-white-10;
+    border-radius: 6px;
+  }
+
+  &__text {
+    padding: 12px 20px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: $color-gray-20;
+    text-align: left;
+  }
+
+  &__row {
+    width: 100%;
+    background: $color-white-10;
+  }
+
+  &__body {
+    width: 100%;
+    background: $color-white-10;
+
+    &-item {
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+    }
+  }
+}

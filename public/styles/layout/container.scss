@@ -1,0 +1,9 @@
+@import "../utils/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: $block-max-width;
+  margin: 0 auto;
+}
